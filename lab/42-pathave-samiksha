@@ -39,3 +39,12 @@ while vnum != num:
         print("Incorrect Guess")
     else:
         print("Correct")
+
+#problem
+student = []
+
+for i in range(5):
+    name = input(f"Enter name for student {i+1}: ")
+    student.append(name)
+
+print("Student List:", student)
