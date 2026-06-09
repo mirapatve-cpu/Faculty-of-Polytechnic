@@ -26,3 +26,16 @@ l = [1, 2, 3, 4, 5, 6]
 l = [x for x in l if x % 2 == 0]
 
 print(l)
+
+#problems6
+num = 10
+vnum = 0
+
+while vnum != num:
+    vinp = int(input("Enter a number (1-10): "))
+    vnum = vinp
+
+    if vnum != num:
+        print("Incorrect Guess")
+    else:
+        print("Correct")
