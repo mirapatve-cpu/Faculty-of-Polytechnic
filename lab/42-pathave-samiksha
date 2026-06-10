@@ -40,7 +40,7 @@ while vnum != num:
     else:
         print("Correct")
 
-#problem
+#problem7
 student = []
 
 for i in range(5):
@@ -48,3 +48,12 @@ for i in range(5):
     student.append(name)
 
 print("Student List:", student)
+#problem8
+def area(l,b):
+a=l*b
+return (a)
+l=float (input("length"))
+b=float (input (" breadth"))
+result=area(l,b)
+print(result)
+
